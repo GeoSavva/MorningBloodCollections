@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <LinearLayout
+            android:id="@+id/klinikh0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/orofos0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="4dp"
+                android:text="@string/zero"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tmima0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="4dp"
+                android:text="@string/orth"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/aimolipsies0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="6"
+                android:inputType="number"
+                android:hint="@string/hint_number"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/klinikh1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/klinikh0"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/orofos1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="4dp"
+                android:text="@string/zero"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tmima1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="4dp"
+                android:text="@string/nrl"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/aimolipsies1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="6"
+                android:inputType="number"
+                android:hint="@string/hint_number"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/klinikh2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/klinikh1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/orofos2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="4dp"
+                android:text="@string/zero"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tmima2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="4dp"
+                android:text="@string/orl"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/aimolipsies2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="6"
+                android:inputType="number"
+                android:hint="@string/hint_number"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/klinikh3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/klinikh2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/orofos3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="4dp"
+                android:text="@string/first"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tmima3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="4dp"
+                android:text="@string/mg"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/aimolipsies3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="6"
+                android:inputType="number"
+                android:hint="@string/hint_number"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/klinikh4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/klinikh3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/orofos4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="4dp"
+                android:text="@string/second"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tmima4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="4dp"
+                android:text="@string/ap"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/aimolipsies4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="6"
+                android:inputType="number"
+                android:hint="@string/hint_number"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/klinikh5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/klinikh4"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/orofos5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="4dp"
+                android:text="@string/second"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tmima5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="4dp"
+                android:text="@string/bp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/aimolipsies5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="6"
+                android:inputType="number"
+                android:hint="@string/hint_number"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/klinikh6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/klinikh5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/orofos6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="4dp"
+                android:text="@string/third"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tmima6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="4dp"
+                android:text="@string/krd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/aimolipsies6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="6"
+                android:inputType="number"
+                android:hint="@string/hint_number"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/klinikh7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/klinikh6"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/orofos7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="4dp"
+                android:text="@string/third"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tmima7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="4dp"
+                android:text="@string/our"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/aimolipsies7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="6"
+                android:inputType="number"
+                android:hint="@string/hint_number"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/klinikh8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/klinikh7"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/orofos8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="4dp"
+                android:text="@string/third"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tmima8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="4dp"
+                android:text="@string/ofth"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/aimolipsies8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="6"
+                android:inputType="number"
+                android:hint="@string/hint_number"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/klinikh9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/klinikh8"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/orofos9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="4dp"
+                android:text="@string/fourth"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tmima9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="4dp"
+                android:text="@string/xrk"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/aimolipsies9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="6"
+                android:inputType="number"
+                android:hint="@string/hint_number"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/klinikh10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/klinikh9"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/orofos10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="4dp"
+                android:text="@string/fourth"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tmima10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="4dp"
+                android:text="@string/pnm"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/aimolipsies10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="6"
+                android:inputType="number"
+                android:hint="@string/hint_number"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/klinikh10"
+            android:background="@color/colorPrimary" />
+
+        <LinearLayout
+            android:id="@+id/sum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/synolo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:padding="4dp"
+                android:text="@string/synolo"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="4dp"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/prosopiko"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sum"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/diathesimoi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="4dp"
+                android:text="@string/diathesimoi"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/atoma"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="6"
+                android:inputType="number"
+                android:hint="@string/hint_number"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/prosopiko"
+            android:background="@color/colorPrimary" />
+
+        <RelativeLayout
+            android:id="@+id/pakets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/paketa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="@string/paketa"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/paketo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/paketa"
+                android:padding="4dp"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorAccent" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/pakets"
+            android:paddingTop="4dp"
+            android:paddingLeft="4dp"
+            android:paddingStart="4dp"
+            android:paddingRight="4dp"
+            android:paddingEnd="4dp"
+            android:text="@string/pd"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textSize="12sp" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

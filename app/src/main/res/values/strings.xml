@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Πρωινές Αιμοληψίες</string>
+    <string name="synolo">Σύνολο Αιμοληψιών</string>
+    <string name="diathesimoi">Διαθέσιμοι</string>
+    <string name="paketa">Πακέτα</string>
+    <string name="xrk">Χειρουργική</string>
+    <string name="ap">Ά Παθολογική</string>
+    <string name="bp">΄Β Παθολογική</string>
+    <string name="krd">Καρδιολογική</string>
+    <string name="orl">Ω.Ρ.Λ.</string>
+    <string name="our">Ουρολογική</string>
+    <string name="mg">Μαιευτική/Γυναικολογική</string>
+    <string name="pnm">Πνευμονολογική</string>
+    <string name="nrl">Νευρολογική</string>
+    <string name="orth">Ορθοπαιδική</string>
+    <string name="ofth">Οφθαλμολογική</string>
+    <string name="zero">Ισόγειο</string>
+    <string name="first">1ος</string>
+    <string name="second">2ος</string>
+    <string name="third">3ος</string>
+    <string name="fourth">4ος</string>
+    <string name="action_settings">Σχετικά</string>
+    <string name="hint_number">0</string>
+    <string name="pd">Δημιουργός: Γιώργος Σαββατιανός</string>
+</resources>
